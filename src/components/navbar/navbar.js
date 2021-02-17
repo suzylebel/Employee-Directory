@@ -1,9 +1,11 @@
 import React from "react";
-import "./styles.css";
+import "./navbar.css";
+
+
 
 function Navbar() {
     return(
-        <nav className="navbar navbar-dark navbar-expand-md bg-success justify-content-between py-5 ">
+        <nav className="navbar navbar-dark navbar-expand-md bg-dark justify-content-between py-5 ">
     <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
             <span className="navbar-toggler-icon"></span>
